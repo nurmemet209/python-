@@ -435,3 +435,12 @@ class people:
 # 实例化类
 p = people('runoob',10,30)
 p.speak()
+
+#json 转 list
+import json
+def json2list(jsonData):
+    return json.loads(data)
+
+#list 转 json
+def  list2json(list):
+    return json.dumps(list)
